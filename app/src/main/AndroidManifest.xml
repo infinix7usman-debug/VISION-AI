@@ -21,5 +21,10 @@
 
         </activity>
     </application>
-
+<service
+<service
+    android:name=".AltronService"
+    android:enabled="true"
+    android:exported="false"
+    android:foregroundServiceType="microphone" />
 </manifest>
